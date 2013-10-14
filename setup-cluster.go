@@ -177,11 +177,12 @@ func main() {
 	Exec("sudo yum install epel-release")
 	fmt.Printf("Done")
 
-
-	//TODO(alex) install ambari
 	fmt.Printf("Installing ambari-server...")
 	Exec("sudo yum install ambari-server")
 	fmt.Printf("Done")
+
+
+	//TODO(alex) install ntpd
 
 	/*read list of hosts
 	  for each Host
